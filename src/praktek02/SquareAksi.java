@@ -5,5 +5,6 @@ public class SquareAksi {
         r1.sisi1 = 5;
         r1.sisi2 = 5;
         
+        r1.cetakInfo();
     }
 }

@@ -3,6 +3,11 @@ package praktek02;
 public class Square {
     double sisi1;
     double sisi2;
+
+    public Square() {
+        sisi1=5;
+        sisi2=5;
+    }
     
   void cetakInfo () {
       System.out.println("=================");
@@ -16,5 +21,9 @@ public class Square {
       double luas;
       luas=sisi1*sisi2;
       return luas;
+  }
+  
+  void cetakLuas () {
+      System.out.println("Luasnya Adalah:  "+hitungLuas());
   }
 }

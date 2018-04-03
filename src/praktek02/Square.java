@@ -10,6 +10,11 @@ public class Square {
       System.out.println("Sisi2 :"+sisi2);
       System.out.println("=================");
        
-   }
-    
+  }
+  
+  double hitungLuas (){
+      double luas;
+      luas=sisi1*sisi2;
+      return luas;
+  }
 }

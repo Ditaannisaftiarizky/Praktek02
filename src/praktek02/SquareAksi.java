@@ -6,5 +6,8 @@ public class SquareAksi {
         r1.sisi2 = 5;
         
         r1.cetakInfo();
+        System.out.println("Luas Square =  "+r1.hitungLuas());
+        
+        
     }
 }
